@@ -1,0 +1,71 @@
+disaster_no,disaster_type,disaster_subtype,start_date,location,cities,latitude,longitude,total_deaths,no_affected,total_affected,severity
+2026-0090-LBY,Water,Water,2026-02-06T00:00:00,Near Zuwara,Zuwara,,,55.0,,,2
+2020-0395-LBY,Water,Water,2020-08-19T00:00:00,,,,,45.0,37.0,37.0,2
+2019-0024-LBY,Water,Water,2019-01-19T00:00:00,,,,,15.0,,,2
+2021-0448-LBY,Water,Water,2021-07-26T00:00:00,Near Khoms,,,,57.0,,,2
+2018-0176-LBY,Water,Water,2018-06-12T00:00:00,Near Tripoli,Tripoli,,,60.0,,,2
+2018-0007-LBY,Water,Water,2018-01-06T00:00:00,North of Tripoli,Tripoli,,,25.0,,,2
+2014-0562-LBY,Water,Water,2014-08-23T00:00:00,North,,,,24.0,,,2
+2016-0410-LBY,Water,Water,2016-10-24T00:00:00,,,,,16.0,2200.0,2200.0,2
+2016-0397-LBY,Water,Water,2016-10-12T00:00:00,,,,,15.0,,,2
+2016-0368-LBY,Water,Water,2016-10-04T00:00:00,,,,,28.0,,,2
+2023-0610-LBY,Storm,Storm (General),2023-09-10T00:00:00,"Benghazi, Tobruk, Toukra, Talmeitha, Almarj, Taknes (Al Jabal Al Akhdar), Al Owailia, Bayada, Albayda, Shahhat, Sousa and Derna","Benghazi,Derna,Tobruk",,,13200.0,1600000.0,1600000.0,3
+2014-0559-LBY,Water,Water,2014-08-22T00:00:00,Guarabouli,,,,119.0,,,3
+2024-0903-LBY,Flood,Flood (General),2024-12-05T00:00:00,"Tarhuna city, Bani Walid city, Bani Walid district, Gharyan city, Jabal al Gharbi district, Qasr Akhyar, Ain Zara",,,,5.0,3335.0,3335.0,1
+2013-0546-LBY,Flood,Riverine flood,2013-11-30T00:00:00,"Tripoli, Az Zawia provinces",Tripoli,,,16.0,2000.0,2000.0,2
+1995-0418-LBY,Flood,Flood (General),1995-10-01T00:00:00,Khums,,,,,,,1
+2008-0244-LBY,Water,Water,2008-06-07T00:00:00,Near Zouweira,,,,140.0,,,3
+1963-0001-LBY,Earthquake,Ground movement,1963-02-21T00:00:00,El Marj (Barce),Al Bayda,32.6,21.0,300.0,,5375.0,3
+2009-0127-LBY,Water,Water,2009-03-29T00:00:00,,,,,221.0,23.0,23.0,3
+2014-0221-LBY,Water,Water,2014-06-13T00:00:00,,,,,10.0,,,2
+2014-0372-LBY,Water,Water,2014-10-02T00:00:00,Near Guarabouli,,,,30.0,85.0,85.0,2
+2015-0289-LBY,Water,Water,2015-07-22T00:00:00,,,,,10.0,,,2
+2015-0377-LBY,Water,Water,2015-08-28T00:00:00,Near Zouara,,,,131.0,198.0,198.0,3
+2016-0417-LBY,Water,Water,2016-11-03T00:00:00,,,,,240.0,,,3
+2016-0567-LBY,Water,Water,2016-03-30T00:00:00,Zawija,,,,54.0,,,2
+2017-0150-LBY,Water,Water,2017-05-24T00:00:00,Near Zouara,,,,34.0,,,2
+2017-0211-LBY,Water,Water,2017-06-01T00:00:00,"Arakan (Maungdaw), China, Irrawaddy Division.",,,,20.0,,,2
+2017-0500-LBY,Water,Water,2017-11-25T00:00:00,,,,,30.0,200.0,200.0,2
+2018-0188-LBY,Water,Water,2018-06-29T00:00:00,,,,,103.0,,,3
+2019-0238-LBY,Water,Water,2019-06-02T00:00:00,Near Garabulli,,,,27.0,73.0,73.0,2
+2019-0442-LBY,Water,Water,2019-08-27T00:00:00,,,,,25.0,,,2
+2020-0515-LBY,Water,Water,2020-11-11T00:00:00,,,,,20.0,,,2
+2021-0842-LBY,Water,Water,2021-12-25T00:00:00,Al-Allous,,,,28.0,3.0,3.0,2
+2022-0218-LBY,Water,Water,2022-04-16T00:00:00,Near Sabratha,,,,35.0,,,2
+2022-0382-LBY,Water,Water,2022-06-27T00:00:00,,,,,23.0,,10.0,2
+2022-0564-LBY,Water,Water,2022-08-30T00:00:00,Near Tolmeta,,,,21.0,,,2
+2023-0840-LBY,Water,Water,2023-12-16T00:00:00,Near Zuwara,Zuwara,,,60.0,,,2
+2025-0099-LBY,Water,Water,2025-02-11T00:00:00,Near Zawiya,Zawiya,,,26.0,,,2
+2025-0819-LBY,Water,Water,2025-09-14T00:00:00,Near Tobrouk,,,,50.0,24.0,24.0,2
+2014-0161-LBY,Water,Water,2014-05-12T00:00:00,150km south of Lampedusa (Italy) and 80km from Lybia,,,,17.0,,,2
+2015-0147-LBY,Water,Water,2015-04-19T00:00:00,"Zuwarah, Tripoli","Tripoli,Zuwara",,,822.0,27.0,27.0,3
+2015-0369-LBY,Water,Water,2015-08-15T00:00:00,,,,,49.0,312.0,312.0,2
+2016-0145-LBY,Water,Water,2016-04-20T00:00:00,,,,,500.0,,,3
+2016-0168-LBY,Water,Water,2016-04-29T00:00:00,,,,,15.0,,,2
+2016-0568-LBY,Water,Water,2016-05-27T00:00:00,,,,,45.0,,,2
+2017-0239-LBY,Water,Water,2017-06-30T00:00:00,,,,,60.0,,,2
+2017-0192-LBY,Water,Water,2017-06-19T00:00:00,,,,,126.0,,,3
+2018-0060-LBY,Water,Water,2018-02-02T00:00:00,Zouara,,,,90.0,3.0,3.0,2
+2018-0276-LBY,Water,Water,2018-07-03T00:00:00,,,,,7.0,123.0,123.0,1
+2019-0371-LBY,Water,Water,2019-07-29T00:00:00,Near Khoms,,,,115.0,145.0,145.0,3
+2020-0472-LBY,Water,Water,2020-10-25T00:00:00,,,,,11.0,,,2
+2021-0663-LBY,Water,Water,2021-10-05T00:00:00,West coast,,,,17.0,,,2
+2020-0432-LBY,Water,Water,2020-09-24T00:00:00,,,,,16.0,,,2
+2020-0502-LBY,Water,Water,2020-11-11T00:00:00,Coast of Khums,,,,74.0,47.0,47.0,2
+2021-0056-LBY,Water,Water,2021-01-19T00:00:00,,,,,43.0,10.0,10.0,2
+2021-0545-LBY,Water,Water,2021-08-24T00:00:00,Near Zouara,,,,18.0,51.0,51.0,2
+2025-0926-LBY,Water,Water,2025-10-28T00:00:00,,,,,18.0,,64.0,2
+2002-0746-LBY,Water,Water,2002-11-30T00:00:00,Near Tripoli,Tripoli,,,68.0,52.0,52.0,2
+2004-0106-LBY,Water,Water,2004-03-09T00:00:00,Near Zouara,,,,15.0,1.0,1.0,2
+2012-0025-LBY,Water,Water,2012-01-28T00:00:00,Near Misrata coast,Misrata,,,55.0,,,2
+2014-0160-LBY,Water,Water,2014-05-06T00:00:00,Garabulli,,,,78.0,52.0,52.0,2
+2014-0275-LBY,Water,Water,2014-08-30T00:00:00,,,,,41.0,,,2
+2014-0303-LBY,Water,Water,2014-07-29T00:00:00,Near Al-Khoms,,,,30.0,,,2
+2014-0366-LBY,Water,Water,2014-09-21T00:00:00,Near Tripoli,Tripoli,,,40.0,36.0,36.0,2
+2016-0169-LBY,Water,Water,2016-04-29T00:00:00,,,,,84.0,,,2
+2016-0430-LBY,Water,Water,2016-11-14T00:00:00,,,,,366.0,,,3
+2017-0018-LBY,Water,Water,2017-01-14T00:00:00,,,,,100.0,,,3
+2017-0388-LBY,Water,Water,2017-09-21T00:00:00,Near Sabratha,,,,100.0,,,3
+2018-0080-LBY,Water,Water,2018-03-06T00:00:00,,,,,21.0,,,2
+2018-0021-LBY,Water,Water,2018-01-09T00:00:00,Near al-Khoms,,,,100.0,17.0,17.0,3
+2019-0224-LBY,Flood,Flood (General),2019-05-28T00:00:00,Ghat municipality,Ghat,24.555,12.691,4.0,20000.0,20030.0,2
