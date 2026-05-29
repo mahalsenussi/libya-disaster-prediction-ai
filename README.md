@@ -21,6 +21,46 @@ Data Layer
 ├── Marine API (wave height, wind speed, sea level)
 ├── News API (article counts, keyword analysis)
 └── Geolocation (lat, lon, elevation, distance to coast)
+```
+
+## 🌍 Data Sources
+
+The system integrates data from multiple sources to provide comprehensive disaster risk assessment:
+
+### 1. Copernicus Marine Service
+- **Provider**: Copernicus Marine Environment Monitoring Service (CMEMS)
+- **Data**: Sea level anomalies, wave height, wave period, wind speed, swell wave height
+- **Coverage**: Mediterranean Sea, Libyan coastal waters
+- **Access**: Requires API key from [Copernicus Marine](https://marine.copernicus.eu/)
+- **Usage**: Marine conditions that contribute to flood and storm surge risks
+
+### 2. Weather API
+- **Provider**: OpenWeatherMap or similar weather service
+- **Data**: Air pressure, air quality index, weather risk scores, temperature
+- **Coverage**: Libyan cities (Tripoli, Benghazi, Derna, etc.)
+- **Access**: Requires API key from weather service provider
+- **Usage**: Atmospheric conditions that indicate storm formation and severity
+
+### 3. News API
+- **Provider**: News aggregation service (e.g., NewsAPI, GDELT)
+- **Data**: Article counts, keyword analysis (flood, storm, evacuation), alert intensity
+- **Coverage**: Libya-wide news monitoring
+- **Access**: Requires API key from news service provider
+- **Usage**: Early warning signals from news reports, public awareness indicators
+
+### 4. EM-DAT International Disaster Database
+- **Provider**: Centre for Research on the Epidemiology of Disasters (CRED)
+- **Data**: Historical disaster events, disaster types, severity, locations, dates
+- **Coverage**: Libya historical disasters (floods, storms, earthquakes)
+- **Access**: [EM-DAT](https://www.emdat.be/) (requires registration)
+- **Usage**: Training data for ML model, pattern recognition, synthetic data generation
+
+### 5. Geolocation Data
+- **Provider**: Manual compilation from geographic databases
+- **Data**: Latitude, longitude, elevation, distance to coast
+- **Coverage**: Major Libyan cities
+- **Access**: Static data included in `city_geolocation.py`
+- **Usage**: Geographic risk factors (coastal flooding, elevation-based vulnerability)
 
 Processing Layer
 ├── Time-series features (wave_delta, pressure_diff, news_spike)
@@ -271,6 +311,8 @@ The system supports real-world feedback collection for continuous model improvem
 
 ## 📝 Dependencies
 
+### Python Packages
+
 ```
 pandas>=1.3.0
 numpy>=1.21.0
@@ -279,6 +321,40 @@ xgboost>=1.5.0
 flask>=2.0.0
 requests>=2.26.0
 joblib>=1.0.0
+```
+
+### External API Services
+
+The system requires API keys for the following services:
+
+1. **Copernicus Marine Service** - Marine data
+   - Register at: https://marine.copernicus.eu/
+   - Obtain API key for marine data access
+
+2. **Weather API** - Weather data
+   - Example: OpenWeatherMap (https://openweathermap.org/api)
+   - Obtain API key for weather data access
+
+3. **News API** - News data
+   - Example: NewsAPI (https://newsapi.org/)
+   - Obtain API key for news data access
+
+4. **EM-DAT** - Historical disaster data
+   - Register at: https://www.emdat.be/
+   - Download Libya disaster data for training
+
+### API Configuration
+
+API endpoints and keys should be configured in the respective data collection scripts:
+
+- `collect_data.py`: Weather, Marine, and News API endpoints
+- `emdat_processor.py`: EM-DAT data file path
+
+Example configuration in `collect_data.py`:
+```python
+WEATHER_API_URL = "http://localhost:5000/api/weather"
+MARINE_API_URL = "http://localhost:5000/api/marine-data"
+NEWS_API_URL = "http://localhost:5000/api/news/libya-danger-assessment"
 ```
 
 ## 🚧 Production Deployment
